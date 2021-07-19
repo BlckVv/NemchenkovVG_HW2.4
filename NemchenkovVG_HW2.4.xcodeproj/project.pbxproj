@@ -43,6 +43,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E656C58B26A50244003F361D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E6E36C1F26A4FC190075F899 /* Main.storyboard */,
+				E6E36C2426A4FC1D0075F899 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		E656C58C26A50257003F361D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6E36C1926A4FC190075F899 /* AppDelegate.swift */,
+				E6E36C1B26A4FC190075F899 /* SceneDelegate.swift */,
+				E6E36C2726A4FC1D0075F899 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
 		E6E36C0D26A4FC190075F899 = {
 			isa = PBXGroup;
 			children = (
@@ -62,18 +81,39 @@
 		E6E36C1826A4FC190075F899 /* NemchenkovVG_HW2.4 */ = {
 			isa = PBXGroup;
 			children = (
-				E6E36C1926A4FC190075F899 /* AppDelegate.swift */,
-				E6E36C1B26A4FC190075F899 /* SceneDelegate.swift */,
-				E6E36C1D26A4FC190075F899 /* LoginViewController.swift */,
-				E6E36C2D26A4FCA80075F899 /* AboutMeViewController.swift */,
-				E6E36C2F26A4FCC00075F899 /* WelcomeViewController.swift */,
-				E6E36C1F26A4FC190075F899 /* Main.storyboard */,
-				E6E36C3126A4FCF90075F899 /* Model.swift */,
-				E6E36C2226A4FC1D0075F899 /* Assets.xcassets */,
-				E6E36C2426A4FC1D0075F899 /* LaunchScreen.storyboard */,
-				E6E36C2726A4FC1D0075F899 /* Info.plist */,
+				E6E36C3326A501DE0075F899 /* Models */,
+				E6E36C3526A501F10075F899 /* View Controllers */,
+				E656C58B26A50244003F361D /* Storyboards */,
+				E656C58C26A50257003F361D /* Support Files */,
+				E6E36C3426A501E50075F899 /* Resources */,
 			);
 			path = NemchenkovVG_HW2.4;
+			sourceTree = "<group>";
+		};
+		E6E36C3326A501DE0075F899 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6E36C3126A4FCF90075F899 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E6E36C3426A501E50075F899 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E6E36C2226A4FC1D0075F899 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E6E36C3526A501F10075F899 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6E36C1D26A4FC190075F899 /* LoginViewController.swift */,
+				E6E36C2F26A4FCC00075F899 /* WelcomeViewController.swift */,
+				E6E36C2D26A4FCA80075F899 /* AboutMeViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,7 +339,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NemchenkovVG_HW2.4/Info.plist;
+				INFOPLIST_FILE = "NemchenkovVG_HW2.4/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +357,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NemchenkovVG_HW2.4/Info.plist;
+				INFOPLIST_FILE = "NemchenkovVG_HW2.4/Support Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
