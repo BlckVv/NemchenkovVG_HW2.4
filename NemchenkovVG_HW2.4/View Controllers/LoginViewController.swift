@@ -27,11 +27,16 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         if let viewControllers = tabBarController.viewControllers {
             
             for viewController in viewControllers {
-                if let welcomeVC = viewControllers.first(where: {$0 is WelcomeViewController}) as? WelcomeViewController {
+                if let welcomeVC = viewController as? WelcomeViewController {
                     welcomeVC.welcomeUserText = "\(me.name) \(me.surname)!"
                 } else if let navigationVC = viewController as? UINavigationController {
                     let aboutMeVC = navigationVC.topViewController as! AboutMeViewController
-                    aboutMeVC.aboutMeText = "Hello, I Am \(me.name) \(me.surname), my friends calls me \(me.nickname) and I am \(me.name) y.o."
+                    aboutMeVC.aboutMeText = """
+                                                Hello, I Am \(me.name) \(me.surname),
+                                                my friends calls me \(me.nickname)
+                                                and I am \(me.age) y.o.
+                                            """
+                    title = "\(me.name) \(me.surname)"
                 }
             }
         }

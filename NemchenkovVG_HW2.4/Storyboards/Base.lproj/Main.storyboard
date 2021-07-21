@@ -174,7 +174,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="130" translatesAutoresizingMaskIntoConstraints="NO" id="RPg-on-GHd">
                                 <rect key="frame" x="123" y="184" width="74" height="180.5"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Me" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHl-kJ-KX2">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Me" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XHl-kJ-KX2">
                                         <rect key="frame" x="0.0" y="0.0" width="74" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -227,7 +227,7 @@
 5. Colors - black/blue
 6. Movies - horros/mystics/anime/melodramas
 7. Food - vegan
-8. Sport - gym
+8. Sports - gym/muay thai
 9. Musical instrument - Guitars (electric/acoustic)
 10,11,12. Cooking, Painting, Photography</string>
                                 <color key="textColor" systemColor="systemBlueColor"/>

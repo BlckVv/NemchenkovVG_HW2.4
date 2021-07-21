@@ -19,7 +19,7 @@ class AboutMeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.addVerticalGradientLayerForAbouMeVC(topColor: primaryColor, bottomColor: secondaryColor)
-        aboutMeLabel.text = "Hello, I Am \(aboutMeText)"
+        aboutMeLabel.text = aboutMeText
     }
 }
 
